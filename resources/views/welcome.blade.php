@@ -441,7 +441,7 @@
 
                     <div class="ml-12">
                         <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                            <h1>{{title}}</h1>
+                            <h1>{{title}}{{title}}</h1>
                             <p>
                             Laravel has wonderful, thorough documentation covering every aspect of the framework.
                             Whether you are new to the framework or have previous experience with Laravel, we recommend
