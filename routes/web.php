@@ -14,21 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $title = "welcome";
-    return view('welcome',compact('title'));
+    return view('welcome');
 })->name('home');
 
 
 Route::get('/about', function () {
-    $title = "about";
-    return view('welcome',compact('title'));
+    return view('welcome');
 })->name('about');
 
 
 
 Route::get('/contact', function () {
-    $title = "contact";
-    return view('welcome',compact('title'));
+    return view('welcome');
 })->name('contact');
 
 
